@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.wrapper{
+  width: 500px;
+  margin: auto;
+  border-radius: 2%;
+  background-color: rgb(190, 181, 181);
+  
+}
+
+.todoList{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50%;
+  flex-direction: column;
+  font-size: 25px;
+}
+
+.todoListInput{
+  margin-top: 40px;
+}
+
+.todoList__input{
+  padding: 5px 10px;
+  margin-right: 15px;
+  border-radius: 2% white;
+}
+
+.todoList__add--button{
+  
+}
+
+.todoList__lists{
+ width: 100%;
+ padding: 0;
+}
+
+.todoList__item{
+  border-bottom: 1px #333 solid;
+  background-color: #C9F0FF;
+  list-style-type: none;
+  width: 100%;
+  padding: 8px 0; 
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.todoList__remove{
+  margin: 0 10px;
+}
+
+.todoList__done{
+
+}
+
+button{
+  padding: 6px 10px;
+  cursor: pointer;
+  color: #333;
+  background-color: white;
+  font-weight: 400;
+  border-radius: 15px;
+  border: 1px #F3CB7A solid;
+}
+
+.todoList__done--icon-none{
+  display: none;
+}
