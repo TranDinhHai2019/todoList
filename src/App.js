@@ -4,11 +4,9 @@ import { useState } from 'react';
 import {MdDoneOutline} from 'react-icons/md'
 
 function App() {
-    const initialState = () => {
-      const listsArray = JSON.parse(localStorage.getItem('toDos'))
-      return listsArray;}
+  const listsArray = JSON.parse(localStorage.getItem('toDos'))
     const [list, setList] = useState('')
-    const [lists, setLists] = useState(initialState ?? [])
+    const [lists, setLists] = useState(listsArray ?? [])
   // function add item
   const hadelAddList = () => {
     if (!list){
